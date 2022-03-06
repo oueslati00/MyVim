@@ -1,12 +1,14 @@
 source ~/.config/nvim/general/settings.vim
-let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
-if empty(glob(data_dir . '/autoload/plug.vim'))
-  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-endif
-
-call plug#begin(has('nvim') ? stdpath('data') . 'plugged' : '~/.vim/plugged')
-
-Plug 'neocolide/coc.vim' , {'branch' : 'release'}
-
+source ~/.config/nvim/general/cocSettings.vim
+ 
+ call plug#begin()
+Plug 'preservim/nerdtree'
+Plug 'neoclide/coc.nvim', {'branch': 'release'} 
+Plug 'morhetz/gruvbox'
+" this is the list of plug used to uml , the first was to highlight the syntaxe 
+Plug 'aklt/plantuml-syntax'
+" this the take a look at your code how it look like
+Plug 'weirongxu/plantuml-previewer.vim'
+" this plugin allow the vim to open browser :) have fun
+Plug 'tyru/open-browser.vim'
 call plug#end()
