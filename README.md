@@ -20,7 +20,7 @@ git clone https://github.com/oueslati00/personalVim ~/.config/nvim
  ```
 - after every plugin modification you should close and open the nvim 
 
-### recommandation :
+### recommendation :
 - [fonts](https://github.com/powerline/fonts) used for nerdtree plugin
 
 ### test :
