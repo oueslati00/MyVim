@@ -5,7 +5,7 @@ My personal vim configuration with minimal plugins
  
 - [install neovim command](https://github.com/neovim/neovim)
 
-- clone the configuration file and add it to ~/.config/nvim
+- clone the configuration file and add it to ~/.config/nvim directory
 
 ```
 git clone https://github.com/oueslati00/personalVim ~/.config/nvim
