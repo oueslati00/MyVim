@@ -3,7 +3,7 @@ My personal vim configuration with minimal plugins
 
 ### Installation Process 
  
--[install neovim command]https://github.com/neovim/neovim 
+- [install neovim command](https://github.com/neovim/neovim)
 
 - install the configuration file 
 
