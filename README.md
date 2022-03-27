@@ -14,3 +14,8 @@ git clone https://github.com/oueslati00/personalVim ~/.config/nvim
 ```
 :PlugInstall 
 ```
+- to add autocomplete for specifique language like java ( you can found more information in https://www.npmjs.com/package/coc-java
+ ```
+ :CocInstall coc-java
+ ```
+- after every plugin modification you should close and open the nvim 
