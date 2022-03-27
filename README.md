@@ -1,7 +1,7 @@
-### Introduction
+### Introduction :
 My personal vim configuration with minimal plugins  
 
-### Installation Process 
+### Installation Process : 
  
 - [install neovim command](https://github.com/neovim/neovim)
 
@@ -19,3 +19,9 @@ git clone https://github.com/oueslati00/personalVim ~/.config/nvim
  :CocInstall coc-java
  ```
 - after every plugin modification you should close and open the nvim 
+
+### recommandation :
+- [fonts](https://github.com/powerline/fonts) used for nerdtree plugin
+
+### test :
+-  tested with [alacritty](https://github.com/alacritty/alacritty) terminal and work fine 
