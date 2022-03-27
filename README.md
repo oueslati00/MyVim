@@ -1,4 +1,5 @@
 copy past guid-line:
+
     1- Position the cursor where you want to begin cutting.
     2 -Press v to select characters, or uppercase V to select whole lines, or Ctrl-v to select rectangular blocks (use Ctrl-q if Ctrl-v is mapped to paste).
 	Move the cursor to the end of what you want to cut.
@@ -22,5 +23,6 @@ another shortkey basic tips:
 	G : move on the first letter of the last ligne 
 	yy: copy ligne under the cursor
 	p : put the test after the cursor
-
+using nerdtree :
+	space : to display/ hidden the list of tree
 	
