@@ -1,3 +1,7 @@
+<p align="center">
+<img src="./screen0.png">
+
+</p>
 ### Introduction :
 My personal vim configuration with minimal plugins  
 
