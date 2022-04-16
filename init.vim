@@ -15,6 +15,7 @@ Plug 'aklt/plantuml-syntax'
 Plug 'weirongxu/plantuml-previewer.vim'
 " this plugin allow the vim to open browser :) have fun
 Plug 'tyru/open-browser.vim'
+
 call plug#end()
 
 " add some basic configuration for coc plugin
